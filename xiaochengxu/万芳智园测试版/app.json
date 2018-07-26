@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/user_center/user/user",
+    "pages/user_center/set/set"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

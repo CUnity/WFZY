@@ -1,0 +1,84 @@
+<!-- 我 -->
+<!-- 头像 -->
+<view class="top">
+  <view class="top_background">
+    <image src='image/top_background.jpg' style='width:100%;height:100%;border-radius: 12px;'></image>
+    <view class="top_background">
+      <view class="top_left">
+      <view class="none"><image src='image/none.png' class="image"></image></view>
+      </view>
+     <view class="top_middle">
+      <view class="label">超级粉丝</view>
+      <text class="user_name">用户名丹江口</text>
+      </view>
+      <!-- <view class="top_right">
+      <view class="check">查看权益</view>
+      </view> -->
+    </view>
+  </view>
+</view>
+<!-- 订单 -->
+<view class="function">
+  <view class="order">
+    <view class="all_order">全部订单</view>
+    <view class="order_check">
+      <view class="check_all">查看全部订单</view>
+      <image src='image/arrow.png' class="set_arrow"></image>
+    </view>
+  </view>
+  <!-- 应用一 -->
+  <view class='function_first'>
+    <view class="one">
+      <image src='image/pay.png' class='one_image'></image>
+      <text style='font-size:20rpx;'>待付款</text>
+    </view>
+    <view class="one">
+      <image src='image/received.png' class='one_image'></image>
+      <text style='font-size:20rpx;'>待收货</text>
+    </view>    
+    <view class="one">
+      <image src='image/send.png' class='one_image'></image>
+      <text style='font-size:20rpx;'>待发货</text>
+    </view>    
+    <view class="one">
+      <image src='image/comment.png' class='one_image'></image>
+      <text style='font-size:20rpx;'>待评论</text>
+    </view>
+  </view>
+  <!-- 应用二 -->
+  <view class='function_first'>
+    <view class="one">
+      <image src='image/coupon.png' class='one_image'></image>
+      <text style='font-size:20rpx;'>优惠券</text>
+    </view>
+    <view class="one">
+      <image src='image/collection.png' class='one_image'></image>
+      <text style='font-size:20rpx;'>收藏</text>
+    </view>    
+    <view class="one">
+      <image src='image/footprint.png' class='one_image'></image>
+      <text style='font-size:20rpx;'>足迹</text>
+    </view>    
+    <view class="one">
+      <image src='image/refund.png' class='one_image'></image>
+      <text style='font-size:20rpx;'>退款/售后服务</text>
+    </view>
+</view>
+<!-- 客服、设置 -->
+<view class='function_second'>
+  <view class="two">
+    <view class="service">    
+      <image class="set_image" src='image/service.png'></image>官方客服
+    </view>
+  </view>
+<navigator url="../set/set" hover-class="navigator-hover" class="two">
+    <view class="set">
+      <image class="set_image" src='image/set_image.png'></image>设置
+    </view>
+    <view class="set_check">
+      <view class="set_all">收货地址管理</view>
+      <image src='image/arrow.png' class="set_arrow"></image>
+    </view>
+  </navigator>
+</view>
+</view>

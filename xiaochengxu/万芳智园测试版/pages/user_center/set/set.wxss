@@ -1,0 +1,67 @@
+Page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* 前部设置 */
+.set_top{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* 中部设置 */
+.set_middle{
+  width: 100%;
+  height: 250rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* 底部设置 */
+.set_bottom{
+  width: 100%;
+  height: 300rpx;
+  display: flex;
+  flex-direction: column;
+}
+/* 共用行内样式 */
+.list{
+  width: 100%;
+  height: 90rpx;
+  background: #FFF;
+  display: flex;
+  flex-direction: row;
+  margin-top:7rpx; 
+}
+.middle_list{
+  width: 100%;
+  height: 90rpx;
+  background: #FFF;
+  display: flex;
+  flex-direction: row;
+}
+.image{
+  width:100rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+.list_text{
+  align-self: center;
+  font-size: 14px;
+  font-weight: bold;
+  color:#999;
+}
+/* 退出登录 */
+.log_off{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top:25rpx;
+  background: rgb(244,96,108);
+}
