@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/user_center/order/order",
     "pages/user_center/user/user",
     "pages/user_center/set/set"
   ],
